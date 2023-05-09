@@ -1,0 +1,29 @@
+- [Mail](https://mail.google.com/mail/u/0/#inbox)
+- [ChatGPT](https://chat.openai.com/)
+- [Hacker News](https://news.ycombinator.com/)
+- [News Minimalist](https://www.newsminimalist.com/)
+- [HN Ideas](https://hn-ideas.tjcx.me/)
+- [SciHub](https://www.sci-hub.se/)
+- - -
+- [Shows](https://showrss.info/timeline)
+- [TPB](https://tpb.party/)
+- - -
+- [GitHub/jasonm23](https://github.com/jasonm23)
+    - [../.doom.d](https://github.com/jasonm23/.doom.d)
+    - [../autothemer](https://github.com/jasonm23/autothemer)
+- [GitHub/ocodo](https://github.com/ocodo)
+    - [../ocodo](https://github.com/ocodo/ocodo)
+    - [../ClockFace-font](https://github.com/ocodo/clockFace-font)
+- [../CutBox](https://github.com/cutbox/CutBox)
+- [GitHub/emacsfodder](https://github.com/emacsfodder)
+    - [../etd](https://github.com/emacsfodder/etd)
+- [GitHub/codefodder](https://github.com/codefodder)
+    - [../HackerNews-DIYgest](https://github.com/codefodder/HackerNews-DIYgest)
+- - -
+- [creativelab5](https://creativelab5.com/)
+- [music for programming](https://musicforprogramming.net/latest/)
+- - -
+- [Emacs-mac-port Homebrew](https://github.com/railwaycat/homebrew-emacsmacport)
+- [Emacs-mac-port Code](https://bitbucket.org/mituharu/emacs-mac/overview)
+
+
