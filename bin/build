@@ -1,0 +1,6 @@
+#!/usr/bin/env zsh
+
+markdown index.md | sed -E 's/(href=".*")/\1 target="_blank"/' > links.html
+
+cat parts/head.html links.html parts/foot.html > index.html
+rm links.html
