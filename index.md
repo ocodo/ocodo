@@ -4,7 +4,7 @@
 - [News Minimalist](https://www.newsminimalist.com/)
 - [HN Ideas](https://hn-ideas.tjcx.me/)
 - [SciHub](https://www.sci-hub.se/)
-- - -
+- [YouTube](https://youtube.com)
 - [Shows](https://showrss.info/timeline)
 - [TPB](https://tpb.party/)
 - - -
@@ -25,5 +25,6 @@
 - - -
 - [Emacs-mac-port Homebrew](https://github.com/railwaycat/homebrew-emacsmacport)
 - [Emacs-mac-port Code](https://bitbucket.org/mituharu/emacs-mac/overview)
+- [Doom Emacs](https://github.com/doomemacs/)
 
 
