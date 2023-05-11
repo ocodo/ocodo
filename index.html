@@ -35,12 +35,44 @@
              border: 1px solid #00DDFF13;
          }
          body > ul {
-             margin: 3em;
+             margin: 1em 0em 3em 3em;
              padding: 0;
+         }
+         .search-box {
+             padding: 1em 0 0 2em;
+             margin: 0;
+         }
+         .search-box > form > input {
+             background-color: #111014;
+             border-radius: 21px;
+             border: 2px solid #FFF2;
+             padding: 0.9em;
+             color-scheme: dark;
+             width: 30em;
+         }
+
+         .search-box > form > button {
+             background-color: #111014;
+             border-radius: 21px;
+             border: 2px solid #FFF2;
+             padding: 0.9em;
+             opacity: 0.3;
+             color: #fff;
+         }
+
+         .search-box form {
+             margin: 0.5em;
+         }
+
+         .search-box input::placeholder {
+             font-weight: bold;
+             opacity: 0.2;
+             color: #fff;
          }
         </style>
     </head>
     <body>
+        <div class="search-box">
         <form action="https://www.google.com/search" method="get">
             <input type="text" name="q" placeholder="Search Google">
             <button type="submit">Go</button>
@@ -50,6 +82,7 @@
             <input type="text" name="q" placeholder="Search TPB...">
             <button type="submit">Go</button>
         </form>
+        </div>
 
         <ul>
 <ul>
