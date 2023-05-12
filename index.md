@@ -20,6 +20,7 @@
 - [GitHub/codefodder](https://github.com/codefodder)
     - [../HackerNews-DIYgest](https://github.com/codefodder/HackerNews-DIYgest)
 - - -
+- [One Day You'll Find Yourself](https://www.onedayyoullfindyourself.com/)
 - [creativelab5](https://creativelab5.com/)
 - [music for programming](https://musicforprogramming.net/latest/)
 - - -
