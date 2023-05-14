@@ -1,0 +1,51 @@
+#!/usr/bin/env zsh
+
+homepage_folder=$HOME/workspace/ocodo
+
+gets_chomp(){
+    read -ei name
+    echo "$(tr -d "\n" <<<$name)"
+}
+
+echo "Link:"
+link=$(gets_chomp)
+echo "Title:"
+title=$(gets_chomp)
+
+markdown="- [${title}](${link})"
+
+add=$(echo "y\nn" | fzf \
+   --header "Add to the homepage? | $markdown" \
+   --no-sort --height 5)
+
+if [[ "$add" == "y" ]]; then
+    cd $homepage_folder
+
+    insert_at=$(cat -n index.md \
+                   | fzf --no-sort --reverse --height 20 \
+                         --header "Select a line to insert the link (below)" \
+                   | grep -E -o '^\s+([0-9]+)' \
+                   | tr -d '[:space:]')
+
+    should_indent=$(echo "y\nn" | fzf \
+       --header "Indent this link: $markdown" \
+       --no-sort --height 5)
+
+    if [[ "$should_indent" == "y" ]]; then
+        markdown="    $markdown"
+    fi
+
+    ed -s index.md <<< "$insert_at"$'a\n'"$markdown"$'\n.\nwq'
+
+    bin/build
+    git diff
+
+    all_ok=$(echo "y\nn" | fzf \
+       --header "All ok? If (y) we'll commit and push to GitHub" \
+       --no-sort --height 5)
+
+    git add .
+    git commit -m "added ${title}"
+    git pull --rebase
+    git push
+fi
