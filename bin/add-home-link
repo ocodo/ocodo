@@ -2,15 +2,9 @@
 
 homepage_folder=$HOME/workspace/ocodo
 
-gets_chomp(){
-    read -ei name
-    echo "$(tr -d "\n" <<<$name)"
-}
-
-echo "Link:"
-link=$(gets_chomp)
-echo "Title:"
-title=$(gets_chomp)
+echo "Add link to ocodo homepage"
+vared -p "Link: " -c link
+vared -p "Title: " -c title
 
 markdown="- [${title}](${link})"
 
