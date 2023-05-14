@@ -7,6 +7,7 @@
 - [YouTube](https://youtube.com)
 - [Shows](https://showrss.info/timeline)
 - [TPB](https://tpb.party/)
+- [HackerNews Insight, Top Stories by Score](https://hackernews-insight.vercel.app/story-list-by-score)
 - - -
 - [GitHub/jasonm23](https://github.com/jasonm23)
     - [../.doom.d](https://github.com/jasonm23/.doom.d)
