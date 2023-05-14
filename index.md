@@ -10,6 +10,7 @@
 - [HackerNews Insight, Top Stories by Score](https://hackernews-insight.vercel.app/story-list-by-score)
 - - -
 - [GitHub/jasonm23](https://github.com/jasonm23)
+- [../lifewiki](https://github.com/jasonm23/lifewiki)
     - [../.doom.d](https://github.com/jasonm23/.doom.d)
     - [../autothemer](https://github.com/jasonm23/autothemer)
 - [GitHub/ocodo](https://github.com/ocodo)
