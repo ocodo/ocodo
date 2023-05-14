@@ -9,8 +9,9 @@ vared -p "Title: " -c title
 markdown="- [${title}](${link})"
 
 add=$(echo "y\nn" | fzf \
-   --header "Add to the homepage? | $markdown" \
-   --no-sort --height 5)
+    --reverse \
+    --header "Add to the homepage? | $markdown" \
+    --no-sort --height 6)
 
 if [[ "$add" == "y" ]]; then
     cd $homepage_folder
@@ -22,8 +23,9 @@ if [[ "$add" == "y" ]]; then
                    | tr -d '[:space:]')
 
     should_indent=$(echo "y\nn" | fzf \
+       --reverse \
        --header "Indent this link: $markdown" \
-       --no-sort --height 5)
+       --no-sort --height 6)
 
     if [[ "$should_indent" == "y" ]]; then
         markdown="    $markdown"
@@ -35,8 +37,9 @@ if [[ "$add" == "y" ]]; then
     git diff
 
     all_ok=$(echo "y\nn" | fzf \
+       --reverse \
        --header "All ok? If (y) we'll commit and push to GitHub" \
-       --no-sort --height 5)
+       --no-sort --height 6)
 
     git add .
     git commit -m "added ${title}"
