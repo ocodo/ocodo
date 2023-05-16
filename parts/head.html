@@ -77,18 +77,16 @@
          }
         </style>
         <script>
-            (function() {
-                document.onload = function(e){
-                    window.addEventListener("keyDown", function(e){
-                        if (e.key == "l" && e.ctrlKey) {
-                            document.querySelector('#google-search').focus()
-                        }
-                        else if (e.key == 'p' && e.ctrlKey) {
-                            document.querySelector('#tpb-search').focus()
-                        }
-                    })
-                }
-            })()
+         window.addEventListener("keyDown", function(e){
+             if (e.key == "l" && e.ctrlKey) {
+                 console.log("Search via Google")
+                 document.querySelector('#google-search').focus()
+             }
+             else if (e.key == 'p' && e.ctrlKey) {
+                 console.log("Search via TPB")
+                 document.querySelector('#tpb-search').focus()
+             }
+         })
         </script>
     </head>
     <body>
