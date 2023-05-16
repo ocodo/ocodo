@@ -1,6 +1,7 @@
 - [Mail](https://mail.google.com/mail/u/0/#inbox)
 - [ChatGPT](https://chat.openai.com/)
 - [Hacker News](https://news.ycombinator.com/)
+- [JellyFin](http://192.168.1.100:8096/web/index.html#!/home.html)
 - [News Minimalist](https://www.newsminimalist.com/)
 - [HN Ideas](https://hn-ideas.tjcx.me/)
 - [SciHub](https://www.sci-hub.se/)
