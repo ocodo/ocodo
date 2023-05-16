@@ -76,16 +76,30 @@
              color: #fff;
          }
         </style>
+        <script>
+            function() {
+                document.onload = function(e){
+                    window.addEventListener("keyDown", function(e){
+                        if (e.key == "l" && e.ctrlKey) {
+                            document.querySelector('#google-search').focus()
+                        }
+                        else if (e.key == 'p' && e.ctrlKey) {
+                            document.querySelector('#tpb-search').focus()
+                        }
+                    })
+                }
+            }()
+        </script>
     </head>
     <body>
         <div class="search-box">
             <form action="https://www.google.com/search" method="GET" target="_blank">
-                <input type="text" name="q" placeholder="Search Google">
+                <input type="text" name="q" placeholder="Search Google" id="google-search">
                 <button type="submit">Go</button>
             </form>
 
             <form action="https://tpb.party/s/" method="GET" target="_blank">
-                <input type="text" name="q" placeholder="Search TPB...">
+                <input type="text" name="q" placeholder="Search TPB..." id="tpb-search">
                 <button type="submit">Go</button>
             </form>
         </div>
