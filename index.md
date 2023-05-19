@@ -7,7 +7,6 @@
 - [SciHub](https://www.sci-hub.se/)
 - [YouTube](https://youtube.com)
 - [Shows](https://showrss.info/timeline)
-- [TPB](https://tpb.party/)
 - [HackerNews Insight, Top Stories by Score](https://hackernews-insight.vercel.app/story-list-by-score)
 - [SwiftUI](https://developer.apple.com/documentation/swiftui/)
 - [Font Awesome to PNG](https://fa2png.app/)
@@ -27,8 +26,8 @@
 - [GitHub/codefodder](https://github.com/codefodder)
     - [../HackerNews-DIYgest](https://github.com/codefodder/HackerNews-DIYgest)
     - [neon.tech Postgres Db](https://neon.tech)
-    - [https://github.com/codefodder/Slashdot-DIYgest](../Slashdot-DIYgest)
-- [My Firefox Extensions](https://addons.mozilla.org/en-GB/developers/addons)
+    - [../Slashdot-DIYgest](https://github.com/codefodder/Slashdot-DIYgest)
+- [JasonM23 Firefox Extensions](https://addons.mozilla.org/en-GB/developers/addons)
 - - -
 - [LoFi ATC](https://www.lofiatc.com/)
 - [creativelab5](https://creativelab5.com/)
