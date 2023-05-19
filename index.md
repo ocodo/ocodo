@@ -27,6 +27,7 @@
 - [GitHub/codefodder](https://github.com/codefodder)
     - [../HackerNews-DIYgest](https://github.com/codefodder/HackerNews-DIYgest)
     - [neon.tech Postgres Db](https://neon.tech)
+    - [https://github.com/codefodder/Slashdot-DIYgest](../Slashdot-DIYgest)
 - [My Firefox Extensions](https://addons.mozilla.org/en-GB/developers/addons)
 - - -
 - [LoFi ATC](https://www.lofiatc.com/)
