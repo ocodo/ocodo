@@ -1,12 +1,16 @@
 - [Mail](https://mail.google.com/mail/u/0/#inbox)
 - [ChatGPT](https://chat.openai.com/)
 - [Hacker News](https://news.ycombinator.com/)
-- [JellyFin](http://192.168.1.100:8096/web/index.html#!/home.html)
 - [News Minimalist](https://www.newsminimalist.com/)
+- - -
+- [FDD](http://www.featuredrivendevelopment.com/)
+- - - 
 - [HN Ideas](https://hn-ideas.tjcx.me/)
 - [SciHub](https://www.sci-hub.se/)
+- [JellyFin](http://192.168.1.100:8096/web/index.html#!/home.html)
 - [YouTube](https://youtube.com)
 - [Shows](https://showrss.info/timeline)
+- - - 
 - [HackerNews Insight, Top Stories by Score](https://hackernews-insight.vercel.app/story-list-by-score)
 - [SwiftUI](https://developer.apple.com/documentation/swiftui/)
 - [Font Awesome to PNG](https://fa2png.app/)
