@@ -1,6 +1,7 @@
 - [Mail](https://mail.google.com/mail/u/0/#inbox)
 - [ChatGPT](https://chat.openai.com/)
 - [Hacker News](https://news.ycombinator.com/)
+- [Leonardo.ai](https://app.leonardo.ai/ai-generations)
 - [News Minimalist](https://www.newsminimalist.com/)
 - - -
 - [FDD](http://www.featuredrivendevelopment.com/)
