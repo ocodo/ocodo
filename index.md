@@ -6,6 +6,7 @@
 - - -
 - [FDD](http://www.featuredrivendevelopment.com/)
 - - - 
+- [Google Translate](https://translate.google.com)
 - [HN Ideas](https://hn-ideas.tjcx.me/)
 - [SciHub](https://www.sci-hub.se/)
 - [JellyFin](http://192.168.1.100:8096/web/index.html#!/home.html)
