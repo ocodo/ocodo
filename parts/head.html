@@ -92,7 +92,8 @@
 
          .date-output {
              color: var(--link-color);
-             font-size: 12pt;
+             padding: 10px;
+             font-size: 18pt;
          }
 
          .red {
@@ -127,7 +128,7 @@
          input.query:focus, input.query:hover {
              background-color: var(--border);
              color: var(--query-text);
-             width: 92%;
+             width: 88%;
          }
 
          button.go {
@@ -186,7 +187,17 @@
          })
 
          function calcMode() {
-             setInput("", "Calculation")
+             setInput("javascript:evaluateCalc()", "Calculation", "")
+         }
+
+         function evaluateCalc() {
+             let output = document.getElementById('output')
+             let textarea = document.querySelector('#search-query')
+             if (textarea.value != "") {
+                 output.innerText = eval(textarea.value)
+             } else {
+                 output.innerText = ""
+             }
          }
 
          function timeMode() {
@@ -195,20 +206,21 @@
              textarea.onkeyup = unixToDateTime
          }
 
-         function setInput(URL, placeholder) {
+         function setInput(URL, placeholder, target="_blank") {
              let form = document.querySelector('#search-form')
              let textarea = document.querySelector('#search-query')
 
              textarea.onkeyup = null
              textarea.value = ""
              form.setAttribute("action", URL)
+             form.setAttribute("target", target)
              textarea.setAttribute("placeholder", placeholder)
              textarea.focus()
          }
 
          function unixToDateTime() {
              let unixInput = document.querySelector('#search-query')
-             let datetimeOutput = document.getElementById('unix-to-datetime-output')
+             let datetimeOutput = document.getElementById('output')
              let inputValue = unixInput.value
              if (inputValue != "") {
                  let datetime = new Date(unixInput.value * 1000)
@@ -225,5 +237,5 @@
                 <input class="query" type="text" name="q" placeholder="Google" id="search-query">
                 <button class="go" type="submit">Go</button>
             </form>
-            <div class="grid-column-2 date-output" id="unix-to-datetime-output"></div>
+            <div class="grid-column-2 date-output" id="output"></div>
         </div>
