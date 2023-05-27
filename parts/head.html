@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -20,14 +20,25 @@
              --input-background-focus-color: #555555;
              --button-background-color: #555555;
              --button-text-color: #000000;
+
+             --background: #12101A;
+             --foreground: #FFFFFF;
+             --query-text: #000000;
+             --border: #DDDDDD;
+             --border-radius: 30px;
+             --input-padding: 12px;
+
+             --red: #FF0000;
+             --green: #00FF00;
+             --blue: #0000FF;
          }
 
          body {
              font-family: "Helvetica Neue";
              background-color: var(--background-color);
              color: var(--text-color);
-             font-size: x-large;
          }
+
          a:link {
              text-decoration:none;
              color: var(--link-color);
@@ -45,6 +56,7 @@
 
          li {
              font-weight: bold;
+             font-size: x-large;
              list-style: none;
          }
 
@@ -62,53 +74,12 @@
              margin: 0;
          }
 
-         .search-box input {
-             background-color: var(--background-color);
-             border-radius: 20px 0 0 20px;
-             border: 1px solid var(--input-border-color);
-             padding: 0.9em;
-             color-scheme: dark;
-             width: 60%;
-             outline: none;
-         }
-
-         .search-box button {
-             background-color: var(--button-background-color);
-             border-radius: 0 20px 20px 0;
-             border: 1px solid var(--button-background-color);
-             border-left: none;
-             padding: 0.9em;
-             color: var(--button-text-color);
-             margin-left: -7px;
-         }
-
-         .search-box form {
-             margin: 0.5em;
-         }
-
-         .search-box input::placeholder {
-             font-weight: bold;
-             color: #fff11;
-         }
-
-         .search-box input:focus {
-             color: var(--text-color);
-             background-color: var(--input-background-focus-color);
-         }
-
-         input#unix-to-datetime {
-             border-radius: 20px;
-             width: 200px;
-             grid-column: 1;
-             color: var(--text-color);
-         }
-
          #unix-to-datetime-container {
-             margin: 0.5em;
-             display: grid;
-             grid-template-columns: auto;
-             grid-gap: 0.1em;
-             width: 60%;
+            margin: 0.5em;
+            display: grid;
+            grid-template-columns: auto;
+            grid-gap: 0.1em;
+            width: 60%;
          }
 
          .grid-column-1 {
@@ -124,6 +95,59 @@
              font-size: 12pt;
          }
 
+         .red {
+             background-color: var(--red);
+         }
+         .green {
+             background-color: var(--green);
+         }
+         .blue {
+             background-color: var(--blue);
+         }
+
+         input, button {
+             font-size: 16pt
+         }
+
+         input.query {
+             border-radius: var(--border-radius) 0 0 var(--border-radius);
+             background-color: var(--background);
+             color: var(--foreground);
+             padding: var(--input-padding);
+             border: 1px solid var(--border);
+             border-right: none;
+             outline: none;
+             transition:
+                 background-color 0.7s ease-in 260ms,
+                 color 0.7s ease-in 260ms,
+                 width 0.5s ease-in 260ms;
+             width: 6%;
+         }
+
+         input.query:focus, input.query:hover {
+             background-color: var(--border);
+             color: var(--query-text);
+             width: 92%;
+         }
+
+         button.go {
+             border-radius: 0 var(--border-radius) var(--border-radius) 0;
+             padding: var(--input-padding);
+             border: 1px solid var(--border);
+             border-left: none;
+             background-color: var(--border);
+             color: var(--background);
+             margin-left: -10px;
+         }
+
+         button.mode {
+             padding: var(--input-padding);
+             border-radius: var(--border-radius);
+             border: none;
+             margin-left: 0.5em;
+             width: 2.25em;
+         }
+
          @media (min-width: 1080px) {
              .container {
                  grid-template-columns: auto auto; /* Two columns for wider screens */
@@ -137,18 +161,53 @@
         </style>
         <script>
          window.addEventListener("keyup", function(e){
-             if (e.key == "l" && e.ctrlKey) {
-                 console.log("Search via Google")
-                 document.querySelector('#google-search').focus()
-             }
-             else if (e.key == 'p' && e.ctrlKey) {
-                 console.log("Search via TPB")
-                 document.querySelector('#tpb-search').focus()
+             if (e.ctrlKey) {
+                 switch (e.key) {
+                     case "l":
+                         setInput("https://www.google.com/search", "Google")
+                         break
+
+                     case "p":
+                         setInput("https://tpb.party/s/", "TPB")
+                         break
+
+                     case "c":
+                         calcMode()
+                         break
+
+                     case "t":
+                         timeMode()
+                         break
+
+                     default:
+                         break
+                 }
              }
          })
 
+         function calcMode() {
+             setInput("", "Calculation")
+         }
+
+         function timeMode() {
+             setInput("", "Timestamp to datetime")
+             let textarea = document.querySelector('#search-query')
+             textarea.onkeyup = unixToDateTime
+         }
+
+         function setInput(URL, placeholder) {
+             let form = document.querySelector('#search-form')
+             let textarea = document.querySelector('#search-query')
+
+             textarea.onkeyup = null
+             textarea.value = ""
+             form.setAttribute("action", URL)
+             textarea.setAttribute("placeholder", placeholder)
+             textarea.focus()
+         }
+
          function unixToDateTime() {
-             let unixInput = document.getElementById('unix-to-datetime')
+             let unixInput = document.querySelector('#search-query')
              let datetimeOutput = document.getElementById('unix-to-datetime-output')
              let inputValue = unixInput.value
              if (inputValue != "") {
@@ -162,25 +221,9 @@
     </head>
     <body>
         <div class="search-box">
-            <form action="https://www.google.com/search" method="GET" target="_blank">
-                <input type="text" name="q" placeholder="Search Google" id="google-search">
-                <button type="submit">Go</button>
+            <form id="search-form" action="https://www.google.com/search" method="GET" target="_blank">
+                <input class="query" type="text" name="q" placeholder="Google" id="search-query">
+                <button class="go" type="submit">Go</button>
             </form>
-
-            <form action="https://tpb.party/s/" method="GET" target="_blank">
-                <input type="text" name="q" placeholder="Search TPB..." id="tpb-search">
-                <button type="submit">Go</button>
-            </form>
-
-            <div id="unix-to-datetime-container" style="">
-                <input
-                    type="text"
-                    id="unix-to-datetime"
-                    placeholder="Unix to datetime"
-                    onkeyup="unixToDateTime()"
-                >
-
-                <div class="grid-column-2 date-output" id="unix-to-datetime-output"></div>
-            </div>
+            <div class="grid-column-2 date-output" id="unix-to-datetime-output"></div>
         </div>
-        <ul>
