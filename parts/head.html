@@ -161,15 +161,57 @@
          }
         </style>
         <script>
+         function detectDoubleTapClosure() {
+             let lastTap = 0;
+             let timeout;
+             return function detectDoubleTap(event) {
+                 const curTime = new Date().getTime();
+                 const tapLen = curTime - lastTap;
+                 if (tapLen < 500 && tapLen > 0) {
+                     nextMode()
+                     event.preventDefault();
+                 } else {
+                     timeout = setTimeout(() => {
+                         clearTimeout(timeout);
+                     }, 500);
+                 }
+                 lastTap = curTime;
+             };
+         }
+
+         /* Regex test to determine if user is on mobile */
+         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+             document.body.addEventListener('touchend', detectDoubleTapClosure(), { passive: false });
+         }
+
+         let modes = [modeGoogle, modeTPB, calcMode, timeMode]
+         let currentMode = 0
+         function nextMode() {
+             currentMode += 1
+             modes[currentMode]()
+         }
+
+         function clearOutput() {
+             let output = document.getElementById('output')
+             output.textContent = ""
+         }
+
+         function googleMode() {
+             clearOutput()
+             setInput("https://www.google.com/search", "Google")
+         }
+         function tpbMode() {
+             clearOutput()
+             setInput("https://tpb.party/s/", "TPB")
+         }
+
          window.addEventListener("keyup", function(e){
              if (e.ctrlKey) {
                  switch (e.key) {
-                     case "l":
-                         setInput("https://www.google.com/search", "Google")
+                     case "l": googleMode()
                          break
 
-                     case "p":
-                         setInput("https://tpb.party/s/", "TPB")
+                     case "p": tpbMode()
                          break
 
                      case "c":
@@ -187,6 +229,7 @@
          })
 
          function calcMode() {
+             clearOutput()
              setInput("javascript:evaluateCalc()", "Calculation", "")
          }
 
@@ -201,6 +244,7 @@
          }
 
          function timeMode() {
+             clearOutput()
              setInput("", "Timestamp to datetime")
              let textarea = document.querySelector('#search-query')
              textarea.onkeyup = unixToDateTime
