@@ -180,31 +180,25 @@
                  handleGesture();
              }, false);
 
-             function handleGesture() {
+             function handleGesure() {
+                 var swiped = 'swiped: ';
                  if (touchendX < touchstartX) {
+                     alert(swiped + 'left!');
                      prevMode()
                  }
-
                  if (touchendX > touchstartX) {
+                     alert(swiped + 'right!');
                      nextMode()
                  }
-             }
-
-             let modes = [googleMode, tpbMode, calcMode, timeMode]
-             let currentMode = 0
-
-             function mod(a, n) {
-                 return a - (n * Math.floor(a/n));
-             }
-
-             function nextMode() {
-                 currentMode = mod((currentMode + 1), 4)
-                 modes[currentMode]()
-             }
-
-             function prevMode() {
-                 currentMode = mod((currentMode - 1), 4)
-                 modes[currentMode]()
+                 if (touchendY < touchstartY) {
+                     alert(swiped + 'down!');
+                 }
+                 if (touchendY > touchstartY) {
+                     alert(swiped + 'left!');
+                 }
+                 if (touchendY == touchstartY) {
+                     alert('tap!');
+                 }
              }
 
              function clearOutput() {
@@ -265,6 +259,23 @@
                  setInput("", "Timestamp to datetime")
                  let textarea = document.querySelector('#search-query')
                  textarea.onkeyup = unixToDateTime
+             }
+
+             let modes = [googleMode, tpbMode, calcMode, timeMode]
+             let currentMode = 0
+
+             function mod(a, n) {
+                 return a - (n * Math.floor(a/n));
+             }
+
+             function nextMode() {
+                 currentMode = mod((currentMode + 1), 4)
+                 modes[currentMode]()
+             }
+
+             function prevMode() {
+                 currentMode = mod((currentMode - 1), 4)
+                 modes[currentMode]()
              }
 
              function setInput(URL, placeholder, target="_blank") {
