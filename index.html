@@ -75,11 +75,11 @@
          }
 
          #unix-to-datetime-container {
-            margin: 0.5em;
-            display: grid;
-            grid-template-columns: auto;
-            grid-gap: 0.1em;
-            width: 60%;
+             margin: 0.5em;
+             display: grid;
+             grid-template-columns: auto;
+             grid-gap: 0.1em;
+             width: 60%;
          }
 
          .grid-column-1 {
@@ -161,33 +161,48 @@
          }
         </style>
         <script>
-         function detectDoubleTapClosure() {
-             let lastTap = 0;
-             let timeout;
-             return function detectDoubleTap(event) {
-                 const curTime = new Date().getTime();
-                 const tapLen = curTime - lastTap;
-                 if (tapLen < 500 && tapLen > 0) {
-                     nextMode()
-                     event.preventDefault();
-                 } else {
-                     timeout = setTimeout(() => {
-                         clearTimeout(timeout);
-                     }, 500);
-                 }
-                 lastTap = curTime;
-             };
+         var touchstartX = 0;
+         var touchstartY = 0;
+         var touchendX = 0;
+         var touchendY = 0;
+
+         var gesuredZone = document.getElementById('gesuredZone');
+
+         gesuredZone.addEventListener('touchstart', function(event) {
+             touchstartX = event.screenX;
+             touchstartY = event.screenY;
+         }, false);
+
+         gesuredZone.addEventListener('touchend', function(event) {
+             touchendX = event.screenX;
+             touchendY = event.screenY;
+             handleGesure();
+         }, false);
+
+         function handleGesure() {
+             var swiped = 'swiped: ';
+             if (touchendX < touchstartX) {
+                 prevMode()
+             }
+             if (touchendX > touchstartX) {
+                 nextMode()
+             }
          }
 
-         /* Regex test to determine if user is on mobile */
-         if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-             document.body.addEventListener('touchend', detectDoubleTapClosure(), { passive: false });
-         }
-
-         let modes = [modeGoogle, modeTPB, calcMode, timeMode]
+         let modes = [googleMode, tpbMode, calcMode, timeMode]
          let currentMode = 0
+
+         function mod(a, n) {
+             return a - (n * Math.floor(a/n));
+         }
+
          function nextMode() {
-             currentMode += 1
+             currentMode = mod((currentMode + 1), 4)
+             modes[currentMode]()
+         }
+
+         function prevMode() {
+             currentMode = mod((currentMode - 1), 4)
              modes[currentMode]()
          }
 
