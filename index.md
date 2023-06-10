@@ -1,23 +1,27 @@
 - [Mail](https://mail.google.com/mail/u/0/#inbox)
+- - -
+- [JellyFin](http://192.168.1.100:8096/web/index.html#!/home.html)
+- [Shows](https://showrss.info/timeline)
+- [Transmission](http://192.168.1.100:9091)
+- [Google Translate](https://translate.google.com)
+- [YouTube](https://youtube.com)
+- - -
 - [ChatGPT](https://chat.openai.com/)
-- [Hacker News](https://news.ycombinator.com/)
 - [Leonardo.ai](https://app.leonardo.ai/ai-generations)
+- [Adobe Podcast Enhance](https://podcast.adobe.com/enhance)
+- [perplexity.ai](https://www.perplexity.ai/)
+- [Prime Voice AI](https://beta.elevenlabs.io/speech-synthesis)
+- - -
+- [Hacker News](https://news.ycombinator.com/)
 - [News Minimalist](https://www.newsminimalist.com/)
 - - -
 - [FDD](http://www.featuredrivendevelopment.com/)
-- - - 
-- [Google Translate](https://translate.google.com)
-- [SciHub](https://www.sci-hub.se/)
-- [JellyFin](http://192.168.1.100:8096/web/index.html#!/home.html)
-- [Transmission Zardoz](http://192.168.1.100:9091)
-- [YouTube](https://youtube.com)
-- [Shows](https://showrss.info/timeline)
-- - - 
-- [HackerNews Insight, Top Stories by Score](https://hackernews-insight.vercel.app/story-list-by-score)
+- - -
 - [SwiftUI](https://developer.apple.com/documentation/swiftui/)
 - [Font Awesome to PNG](https://fa2png.app/)
 - [SF Symbols search](https://sfsymbols.com/)
-- [Knuth ChatGPT](pages/knuth-chatgpt.html)
+- - - 
+- [HackerNews Insight, Top Stories by Score](https://hackernews-insight.vercel.app/story-list-by-score)
 - - -
 - [GitHub/jasonm23](https://github.com/jasonm23)
     - [../lifewiki](https://github.com/jasonm23/lifewiki)
