@@ -8,6 +8,7 @@
 - - -
 - [ChatGPT](https://chat.openai.com/)
 - [Leonardo.ai](https://app.leonardo.ai/ai-generations)
+    - [Eraser App Diagramming](https://app.eraser.io)
 - [Adobe Podcast Enhance](https://podcast.adobe.com/enhance)
 - [perplexity.ai](https://www.perplexity.ai/)
 - [Prime Voice AI](https://beta.elevenlabs.io/speech-synthesis)
