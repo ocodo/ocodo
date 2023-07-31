@@ -38,6 +38,7 @@
     - [../kurecolor](https://github.com/emacsfodder/kurecolor)
 - [GitHub/codefodder](https://github.com/codefodder)
     - [../HackerNews-DIYgest](https://github.com/codefodder/HackerNews-DIYgest)
+    - [../HackerNews-DIYgest/actions](https://github.com/codefodder/HackerNews-DIYgest/actions/workflows/hacker-news-diygest-hourly-scrape.yml)
     - [neon.tech Postgres Db](https://neon.tech)
     - [../Slashdot-DIYgest](https://github.com/codefodder/Slashdot-DIYgest)
 - [JasonM23 Firefox Extensions](https://addons.mozilla.org/en-GB/developers/addons)
