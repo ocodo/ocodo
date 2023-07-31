@@ -41,6 +41,7 @@
     - [../HackerNews-DIYgest/actions](https://github.com/codefodder/HackerNews-DIYgest/actions/workflows/hacker-news-diygest-hourly-scrape.yml)
     - [neon.tech Postgres Db](https://neon.tech)
     - [../Slashdot-DIYgest](https://github.com/codefodder/Slashdot-DIYgest)
+    - [../Slashdot-DIYgest/actions](https://github.com/codefodder/Slashdot-DIYgest/actions/workflows/slashdot-diygest-email.yml)
 - [JasonM23 Firefox Extensions](https://addons.mozilla.org/en-GB/developers/addons)
 - - -
 - [LoFi ATC](https://www.lofiatc.com/)
