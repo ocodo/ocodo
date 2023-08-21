@@ -1,6 +1,7 @@
 - [Mail](https://mail.google.com/mail/u/0/#inbox)
 - [WhatsApp](https://web.whatsapp.com/)
 - - -
+- [Hacker News](https://news.ycombinator.com/)
 - [JellyFin](http://192.168.1.100:8096/web/index.html#!/home.html)
 - [Shows](https://showrss.info/timeline)
 - [Transmission](http://192.168.1.100:9091)
@@ -16,7 +17,6 @@
 - [perplexity.ai](https://www.perplexity.ai/)
 - [Prime Voice AI](https://beta.elevenlabs.io/speech-synthesis)
 - - -
-- [Hacker News](https://news.ycombinator.com/)
 - [News Minimalist](https://www.newsminimalist.com/)
 - - -
 - [FDD](http://www.featuredrivendevelopment.com/)
