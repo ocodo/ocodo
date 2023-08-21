@@ -10,10 +10,13 @@ remove_at=$(cat -n index.md \
     --header "Select link to remove" -m | \
     cut -f 1 | tr -d " ")
 
-while read line; do
-    echo "Removing:$line"
-    sed -i "${line}d" index.md
-done<<<"$remove_at"
+echo "$remove_at" | \
+    sort -r -n | \
+    \
+    while read line; do
+        echo "Removing:$line"
+        sed -i '' "${line}d" index.md
+    done<<<"$(echo remove_at)"
 
 bin/build
 
