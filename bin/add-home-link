@@ -34,9 +34,9 @@ if [[ "$add" == "y" ]]; then
     ed -s index.md <<< "$insert_at"$'a\n'"$markdown"$'\n.\nwq'
 
     bin/build
-    git diff
+    git --no-pager diff
 
-    all_ok=$(echo "y\nn" | fzf \
+    all_ok=$(echo "n\ny" | fzf \
        --reverse \
        --header "All ok? If (y) we'll commit and push to GitHub" \
        --no-sort --height 6)

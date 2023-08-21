@@ -19,10 +19,7 @@ echo "$remove_at" | \
     done<<<"$(echo remove_at)"
 
 bin/build
-
 git --no-pager diff
-
-echo "--------------------------------------------------------------------------------"
 
 all_ok=$(echo "n\ny" | fzf \
     --reverse \

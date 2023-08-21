@@ -10,15 +10,13 @@ remove_at=$(cat -n index.md \
     --header "Select link to move" | \
     cut -f 1 | tr -d " ")
 
-echo "$remove_at"
 text="$(sed -n "${remove_at}p" index.md)"
-echo "$text"
 
 sed -i '' "${remove_at}d" index.md
 
 move_to=$(cat -n index.md \
     | fzf --no-sort --reverse --height 20 \
-    --header "Move [$line] to:" | \
+    --header "Move [$text] to:" | \
     cut -f 1 | tr -d " ")
 
 sed -i '' "${move_to}i\\
@@ -26,10 +24,7 @@ $text
 " index.md
 
 bin/build
-
 git --no-pager diff
-
-echo "--------------------------------------------------------------------------------"
 
 all_ok=$(echo "n\ny" | fzf \
     --reverse \
