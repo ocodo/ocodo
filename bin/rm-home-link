@@ -16,7 +16,10 @@ sed "/$remove_at/d" < index.md > "$temp"
 mv "$temp" index.md
 
 bin/build
+
 git diff
+
+echo "--------------------------------------------------------------------------------"
 
 all_ok=$(echo "y\nn" | fzf \
     --reverse \
