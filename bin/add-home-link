@@ -41,6 +41,8 @@ if [[ "$add" == "y" ]]; then
        --header "All ok? If (y) we'll commit and push to GitHub" \
        --no-sort --height 6)
 
+    [ "$all_ok" != "y" ] && exit
+
     git add .
     git commit -m "added ${title}"
     git pull --rebase
