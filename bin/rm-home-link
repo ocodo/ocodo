@@ -4,16 +4,16 @@ homepage_folder=$HOME/workspace/ocodo
 cd $homepage_folder
 
 echo "Remove ocodo homepage link"
-remove_at=$(cat index.md \
+
+remove_at=$(cat -n index.md \
     | fzf --no-sort --reverse --height 20 \
-    --header "Select link to remove")
+    --header "Select link to remove" -m | \
+    cut -f 1 | tr -d " ")
 
-temp=$(mktemp)
-
-echo "Removing: $remove_at"
-
-grep -vF -e "$remove_at" index.md > "$temp"
-mv "$temp" index.md
+while read line; do
+    echo "Removing:$line"
+    sed -i "${line}d" index.md
+done<<<"$remove_at"
 
 bin/build
 
@@ -21,7 +21,7 @@ git --no-pager diff
 
 echo "--------------------------------------------------------------------------------"
 
-all_ok=$(echo "y\nn" | fzf \
+all_ok=$(echo "n\ny" | fzf \
     --reverse \
     --header "All ok? If (y) we'll commit and push to GitHub" \
     --no-sort --height 6)
