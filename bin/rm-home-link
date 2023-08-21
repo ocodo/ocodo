@@ -4,13 +4,15 @@ homepage_folder=$HOME/workspace/ocodo
 cd $homepage_folder
 
 echo "Remove ocodo homepage link"
-remove_at=$(cat -n index.md \
+remove_at=$(cat index.md \
     | fzf --no-sort --reverse --height 20 \
     --header "Select link to remove" \
     | grep -E -o '^\s+([0-9]+)' \
     | tr -d '[:space:]')
 
 temp=$(mktemp)
+
+echo "$remove_at"
 
 sed "/$remove_at/d" < index.md > "$temp"
 mv "$temp" index.md
