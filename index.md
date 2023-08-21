@@ -41,8 +41,8 @@
     - [../kurecolor](https://github.com/emacsfodder/kurecolor)
 - [GitHub/codefodder](https://github.com/codefodder)
     - [../HackerNews-DIYgest/actions](https://github.com/codefodder/HackerNews-DIYgest/actions/workflows/hacker-news-diygest-hourly-scrape.yml)
-    - [neon.tech Postgres Db](https://neon.tech)
     - [../Slashdot-DIYgest/actions](https://github.com/codefodder/Slashdot-DIYgest/actions/workflows/slashdot-diygest-email.yml)
+    - [neon.tech Postgres Db](https://neon.tech)
 - [JasonM23 Firefox Extensions](https://addons.mozilla.org/en-GB/developers/addons)
 - - -
 - [LoFi ATC](https://www.lofiatc.com/)
