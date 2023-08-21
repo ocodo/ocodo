@@ -12,12 +12,12 @@ temp=$(mktemp)
 
 echo "Removing: $remove_at"
 
-rg -v -F "$remove_at" index.md > "$temp"
+grep -vF -e "$remove_at" index.md > "$temp"
 mv "$temp" index.md
 
 bin/build
 
-git diff | cat
+git --no-pager diff
 
 echo "--------------------------------------------------------------------------------"
 
