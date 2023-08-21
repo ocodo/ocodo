@@ -11,6 +11,7 @@
 - [Leonardo.ai](https://app.leonardo.ai/ai-generations)
 - [Pixlr PhotoEditor](https://pixlr.com/e/)
 - [Eraser App Diagramming](https://app.eraser.io)
+- [codepen.io](https://codepen.io)
 - [Adobe Podcast Enhance](https://podcast.adobe.com/enhance)
 - [perplexity.ai](https://www.perplexity.ai/)
 - [Prime Voice AI](https://beta.elevenlabs.io/speech-synthesis)
@@ -46,7 +47,6 @@
 - - -
 - [LoFi ATC](https://www.lofiatc.com/)
 - [music for programming](https://musicforprogramming.net/latest/)
-- [codepen.io](https://codepen.io)
 - - -
 - [Emacs-mac-port Homebrew](https://github.com/railwaycat/homebrew-emacsmacport)
 - [Emacs-mac-port Code](https://bitbucket.org/mituharu/emacs-mac/overview)

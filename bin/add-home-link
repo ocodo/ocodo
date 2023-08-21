@@ -19,8 +19,8 @@ if [[ "$add" == "y" ]]; then
     insert_at=$(cat -n index.md \
                    | fzf --no-sort --reverse --height 20 \
                          --header "Select a line to insert the link (below)" \
-                   | grep -E -o '^\s+([0-9]+)' \
-                   | tr -d '[:space:]')
+                   | cut -f 1 \
+                   | tr -d ' ')
 
     should_indent=$(echo "y\nn" | fzf \
        --reverse \
