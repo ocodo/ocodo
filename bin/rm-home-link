@@ -6,20 +6,18 @@ cd $homepage_folder
 echo "Remove ocodo homepage link"
 remove_at=$(cat index.md \
     | fzf --no-sort --reverse --height 20 \
-    --header "Select link to remove" \
-    | grep -E -o '^\s+([0-9]+)' \
-    | tr -d '[:space:]')
+    --header "Select link to remove")
 
 temp=$(mktemp)
 
-echo "$remove_at"
+echo "Removing: $remove_at"
 
-sed "/$remove_at/d" < index.md > "$temp"
+rg -v -F "$remove_at" index.md > "$temp"
 mv "$temp" index.md
 
 bin/build
 
-git diff
+git diff | cat
 
 echo "--------------------------------------------------------------------------------"
 
