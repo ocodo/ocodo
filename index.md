@@ -1,14 +1,12 @@
 - [Mail](https://mail.google.com/mail/u/0/#inbox)
 - [WhatsApp](https://web.whatsapp.com/)
 - - -
-- - -
 - [Hacker News](https://news.ycombinator.com/)
 - [JellyFin](http://192.168.1.100:8096/web/index.html#!/home.html)
 - [Shows](https://showrss.info/timeline)
 - [Transmission](http://192.168.1.100:9091)
 - [Google Translate](https://translate.google.com)
 - [YouTube](https://youtube.com)
-- - -
 - - -
 - [Eraser App Diagramming](https://app.eraser.io)
 - [ChatGPT](https://chat.openai.com/)
@@ -18,7 +16,6 @@
 - [Adobe Podcast Enhance](https://podcast.adobe.com/enhance)
 - [perplexity.ai](https://www.perplexity.ai/)
 - [Prime Voice AI](https://beta.elevenlabs.io/speech-synthesis)
-- - -
 - - -
 - [News Minimalist](https://www.newsminimalist.com/)
 - [HackerNews Insight, Top Stories by Score](https://hackernews-insight.vercel.app/story-list-by-score)
@@ -35,9 +32,12 @@
 - [GitHub/ocodo](https://github.com/ocodo)
     - [../ocodo](https://github.com/ocodo/ocodo)
     - [../ClockFace-font](https://github.com/ocodo/clockFace-font)
+- - - 
 - [GitHub/cutbox](https://github.com/cutbox)
     - [../CutBox](https://github.com/cutbox/CutBox)
-- - - 
+    - [../CutBox/wiki](https://github.com/cutbox/CutBox/wiki)
+    - [../CutBox/actions](https://github.com/cutbox/CutBox/actions)
+- [cutbox.github.io](https://cutbox.github.io)
 - [GitHub/emacsfodder](https://github.com/emacsfodder)
     - [../etd](https://github.com/emacsfodder/etd)
     - [../kurecolor](https://github.com/emacsfodder/kurecolor)
