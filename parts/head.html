@@ -159,6 +159,32 @@
                  grid-column: 2;
              }
          }
+
+         .link-lists {
+             display: grid;
+             grid-template-columns: repeat(3, calc(33.33% - 40px)); /* Adjust gap and width as needed */
+             grid-gap: 1em; /* Adjust the gap between grid items as needed */
+             align-items: top;
+         }
+
+         .link-lists > ul {
+             padding: 2em;
+             border-radius: 10pt;
+             background-color: #222c;
+             margin: 0;
+         }
+
+         @media (max-width: 960px) {
+             .link-lists {
+                 grid-template-columns: repeat(2, calc(50% - 40px));
+             }
+         }
+
+         @media (max-width: 800px) {
+             .link-lists {
+                 grid-template-columns: repeat(1, auto);
+             }
+         }
         </style>
         <script>
          window.onload = function() {
@@ -317,3 +343,4 @@
             </form>
             <div class="grid-column-2 date-output" id="output"></div>
         </div>
+        <div class="link-lists">
