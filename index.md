@@ -1,12 +1,14 @@
 - [Mail](https://mail.google.com/mail/u/0/#inbox)
 - [WhatsApp](https://web.whatsapp.com/)
 - - -
+- - -
 - [Hacker News](https://news.ycombinator.com/)
 - [JellyFin](http://192.168.1.100:8096/web/index.html#!/home.html)
 - [Shows](https://showrss.info/timeline)
 - [Transmission](http://192.168.1.100:9091)
 - [Google Translate](https://translate.google.com)
 - [YouTube](https://youtube.com)
+- - -
 - - -
 - [Eraser App Diagramming](https://app.eraser.io)
 - [ChatGPT](https://chat.openai.com/)
@@ -17,16 +19,15 @@
 - [perplexity.ai](https://www.perplexity.ai/)
 - [Prime Voice AI](https://beta.elevenlabs.io/speech-synthesis)
 - - -
+- - -
 - [News Minimalist](https://www.newsminimalist.com/)
-- - -
+- [HackerNews Insight, Top Stories by Score](https://hackernews-insight.vercel.app/story-list-by-score)
 - [FDD](http://www.featuredrivendevelopment.com/)
-- - -
 - [SwiftUI](https://developer.apple.com/documentation/swiftui/)
 - [Font Awesome to PNG](https://fa2png.app/)
-- - - 
-- [HackerNews Insight, Top Stories by Score](https://hackernews-insight.vercel.app/story-list-by-score)
 - - -
 - [My Gists](https://gist.github.com/jasonm23/)
+- [JasonM23 Firefox Extensions](https://addons.mozilla.org/en-GB/developers/addons)
 - [GitHub/jasonm23](https://github.com/jasonm23)
     - [../lifewiki](https://github.com/jasonm23/lifewiki)
     - [../.doom.d](https://github.com/jasonm23/.doom.d)
@@ -36,6 +37,7 @@
     - [../ClockFace-font](https://github.com/ocodo/clockFace-font)
 - [GitHub/cutbox](https://github.com/cutbox)
     - [../CutBox](https://github.com/cutbox/CutBox)
+- - - 
 - [GitHub/emacsfodder](https://github.com/emacsfodder)
     - [../etd](https://github.com/emacsfodder/etd)
     - [../kurecolor](https://github.com/emacsfodder/kurecolor)
@@ -43,11 +45,9 @@
     - [../Slashdot-DIYgest/actions](https://github.com/codefodder/Slashdot-DIYgest/actions/workflows/slashdot-diygest-email.yml)
     - [../HackerNews-DIYgest/actions](https://github.com/codefodder/HackerNews-DIYgest/actions/workflows/hacker-news-diygest-hourly-scrape.yml)
     - [neon.tech Postgres Db](https://neon.tech)
-- [JasonM23 Firefox Extensions](https://addons.mozilla.org/en-GB/developers/addons)
 - - -
 - [LoFi ATC](https://www.lofiatc.com/)
 - [music for programming](https://musicforprogramming.net/latest/)
-- - -
 - [Emacs-mac-port Homebrew](https://github.com/railwaycat/homebrew-emacsmacport)
 - [Emacs-mac-port Code](https://bitbucket.org/mituharu/emacs-mac/overview)
 - [Doom Emacs](https://github.com/doomemacs/)
