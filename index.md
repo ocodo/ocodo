@@ -8,6 +8,7 @@
 - [Google Translate](https://translate.google.com)
 - [YouTube](https://youtube.com)
 - - -
+- [Google Bard AI](https://bard.google.com/)
 - [Eraser App Diagramming](https://app.eraser.io)
 - [ChatGPT](https://chat.openai.com/)
 - [Leonardo.ai](https://app.leonardo.ai/ai-generations)
