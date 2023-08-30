@@ -1,5 +1,10 @@
 - [Mail](https://mail.google.com/mail/u/0/#inbox)
 - [WhatsApp](https://web.whatsapp.com/)
+- [LoFi ATC](https://www.lofiatc.com/)
+- [music for programming](https://musicforprogramming.net/latest/)
+- [Emacs-mac-port Homebrew](https://github.com/railwaycat/homebrew-emacsmacport)
+- [Emacs-mac-port Code](https://bitbucket.org/mituharu/emacs-mac/overview)
+- [Doom Emacs](https://github.com/doomemacs/)
 - - -
 - [Hacker News](https://news.ycombinator.com/)
 - [JellyFin](http://192.168.1.100:8096/web/index.html#!/home.html)
@@ -7,6 +12,11 @@
 - [Transmission](http://192.168.1.100:9091)
 - [Google Translate](https://translate.google.com)
 - [YouTube](https://youtube.com)
+- [News Minimalist](https://www.newsminimalist.com/)
+- [HackerNews Insight, Top Stories by Score](https://hackernews-insight.vercel.app/story-list-by-score)
+- [FDD](http://www.featuredrivendevelopment.com/)
+- [SwiftUI](https://developer.apple.com/documentation/swiftui/)
+- [Font Awesome to PNG](https://fa2png.app/)
 - - -
 - [Google Bard AI](https://bard.google.com/)
 - [Eraser App Diagramming](https://app.eraser.io)
@@ -17,12 +27,6 @@
 - [Adobe Podcast Enhance](https://podcast.adobe.com/enhance)
 - [perplexity.ai](https://www.perplexity.ai/)
 - [Prime Voice AI](https://beta.elevenlabs.io/speech-synthesis)
-- - -
-- [News Minimalist](https://www.newsminimalist.com/)
-- [HackerNews Insight, Top Stories by Score](https://hackernews-insight.vercel.app/story-list-by-score)
-- [FDD](http://www.featuredrivendevelopment.com/)
-- [SwiftUI](https://developer.apple.com/documentation/swiftui/)
-- [Font Awesome to PNG](https://fa2png.app/)
 - - -
 - [My Gists](https://gist.github.com/jasonm23/)
 - [JasonM23 Firefox Extensions](https://addons.mozilla.org/en-GB/developers/addons)
@@ -46,9 +50,3 @@
     - [../Slashdot-DIYgest/actions](https://github.com/codefodder/Slashdot-DIYgest/actions/workflows/slashdot-diygest-email.yml)
     - [../HackerNews-DIYgest/actions](https://github.com/codefodder/HackerNews-DIYgest/actions/workflows/hacker-news-diygest-hourly-scrape.yml)
     - [neon.tech Postgres Db](https://neon.tech)
-- - -
-- [LoFi ATC](https://www.lofiatc.com/)
-- [music for programming](https://musicforprogramming.net/latest/)
-- [Emacs-mac-port Homebrew](https://github.com/railwaycat/homebrew-emacsmacport)
-- [Emacs-mac-port Code](https://bitbucket.org/mituharu/emacs-mac/overview)
-- [Doom Emacs](https://github.com/doomemacs/)
