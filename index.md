@@ -7,6 +7,7 @@
 - [JellyFin](http://192.168.1.100:8096/web/index.html#!/home.html)
 - [YouTube](https://youtube.com)
 - [LoFi ATC](https://www.lofiatc.com/)
+- [Home Router](http://192.168.1.1/)
 
 - - -
 - [Hacker News](https://news.ycombinator.com/)
