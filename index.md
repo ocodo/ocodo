@@ -47,6 +47,7 @@
     - [../CutBox/actions](https://github.com/cutbox/CutBox/actions)
     - [../CutBox/wiki](https://github.com/cutbox/CutBox/wiki)
     - [cutbox.github.io](https://cutbox.github.io)
+- [CutBox Codacy](https://app.codacy.com/gh/cutbox/CutBox/dashboard)
 - - -
 - [GitHub/emacsfodder](https://github.com/emacsfodder)
     - [../etd](https://github.com/emacsfodder/etd)
@@ -57,3 +58,4 @@
     - [../HackerNews-DIYgest/actions](https://github.com/codefodder/HackerNews-DIYgest/actions/workflows/hacker-news-diygest-hourly-scrape.yml)
     - [neon.tech Postgres Db](https://neon.tech)
 - - -
+- [CutBox Codacy Dashboard](https://app.codacy.com/gh/cutbox/CutBox/dashboard)
