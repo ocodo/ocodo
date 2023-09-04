@@ -58,5 +58,3 @@
     - [../Slashdot-DIYgest/actions](https://github.com/codefodder/Slashdot-DIYgest/actions/workflows/slashdot-diygest-email.yml)
     - [../HackerNews-DIYgest/actions](https://github.com/codefodder/HackerNews-DIYgest/actions/workflows/hacker-news-diygest-hourly-scrape.yml)
     - [neon.tech Postgres Db](https://neon.tech)
-- - -
-- [CutBox Codacy Dashboard](https://app.codacy.com/gh/cutbox/CutBox/dashboard)
