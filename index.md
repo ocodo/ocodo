@@ -47,7 +47,7 @@
     - [../CutBox/actions](https://github.com/cutbox/CutBox/actions)
     - [../CutBox/wiki](https://github.com/cutbox/CutBox/wiki)
     - [cutbox.github.io](https://cutbox.github.io)
-    - [CLI Coverage](https://cutbox.github.io/CutBox/)
+    - [Coverage Reports](https://cutbox.github.io/CutBox/)
     - [CutBox Codacy Dashboard](https://app.codacy.com/gh/cutbox/CutBox/dashboard)
 - - -
 - [GitHub/emacsfodder](https://github.com/emacsfodder)
