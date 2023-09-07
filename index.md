@@ -44,11 +44,13 @@
 - - -
 - [GitHub/cutbox](https://github.com/cutbox)
     - [../CutBox](https://github.com/cutbox/CutBox)
-    - [../CutBox/actions](https://github.com/cutbox/CutBox/actions)
-    - [../CutBox/wiki](https://github.com/cutbox/CutBox/wiki)
+      - [../issues](https://github.com/cutbox/CutBox/issues)
+      - [../actions](https://github.com/cutbox/CutBox/actions)
+        - [../workflows/xcode-build](https://github.com/cutbox/CutBox/actions/workflows/xcode-build.yml)
     - [cutbox.github.io](https://cutbox.github.io)
-    - [Coverage Reports](https://cutbox.github.io/CutBox/)
+      - [Coverage Reports](https://cutbox.github.io/CutBox/)
     - [CutBox Codacy Dashboard](https://app.codacy.com/gh/cutbox/CutBox/dashboard)
+    - [../CutBox/wiki](https://github.com/cutbox/CutBox/wiki)
 - - -
 - [GitHub/emacsfodder](https://github.com/emacsfodder)
     - [../etd](https://github.com/emacsfodder/etd)
