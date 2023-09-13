@@ -24,6 +24,7 @@
 - [Adobe Podcast Enhance](https://podcast.adobe.com/enhance)
 - [Font Awesome to PNG](https://fa2png.app/)
 - [Simpleicons](https://simpleicons.org/)
+- [shields.io](https://shields.io/badges/)
 - [Pixlr PhotoEditor](https://pixlr.com/e/)
 - [Prime Voice AI](https://beta.elevenlabs.io/speech-synthesis)
 - [Shows](https://showrss.info/timeline)
