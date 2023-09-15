@@ -8,7 +8,6 @@
 - [YouTube](https://youtube.com)
 - [LoFi ATC](https://www.lofiatc.com/)
 - [Home Router](http://192.168.1.1/)
-
 - - -
 - [Hacker News](https://news.ycombinator.com/)
 - [My Gists](https://gist.github.com/jasonm23/)
@@ -19,7 +18,6 @@
 - [HackerNews Insight, Top Stories by Score](https://hackernews-insight.vercel.app/story-list-by-score)
 - [Emacs-mac-port Code](https://bitbucket.org/mituharu/emacs-mac/overview)
 - [Emacs-mac-port Homebrew](https://github.com/railwaycat/homebrew-emacsmacport)
-
 - - -
 - [Adobe Podcast Enhance](https://podcast.adobe.com/enhance)
 - [Font Awesome to PNG](https://fa2png.app/)
@@ -32,8 +30,6 @@
 - [codepen.io](https://codepen.io)
 - [music for programming](https://musicforprogramming.net/latest/)
 - [perplexity.ai](https://www.perplexity.ai/)
-- [FDD](http://www.featuredrivendevelopment.com/)
-
 - - -
 - [GitHub/jasonm23](https://github.com/jasonm23)
     - [../lifewiki](https://github.com/jasonm23/lifewiki)
