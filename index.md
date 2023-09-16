@@ -38,6 +38,7 @@
 - - -
 - [GitHub/ocodo](https://github.com/ocodo)
     - [../ocodo](https://github.com/ocodo/ocodo)
+    - [../ocodomono font](https://github.com/ocodo/ocodomono)
     - [../ClockFace-font](https://github.com/ocodo/clockFace-font)
 - - -
 - [GitHub/cutbox](https://github.com/cutbox)
