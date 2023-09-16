@@ -12,7 +12,7 @@
 - - -
 - [Hacker News](https://news.ycombinator.com/)
 - [My Gists](https://gist.github.com/jasonm23/)
-- [JasonM23 Firefox Extensions](https://addons.mozilla.org/en-GB/developers/addons)
+- [Firefox Extensions](https://addons.mozilla.org/en-GB/developers/addons)
 - [News Minimalist](https://www.newsminimalist.com/)
 - [Eraser App Diagramming](https://app.eraser.io)
 - [Doom Emacs](https://github.com/doomemacs/)
