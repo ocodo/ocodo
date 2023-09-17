@@ -75,7 +75,7 @@
     - [Alamofire/Alamofire](https://github.com/Alamofire/Alamofire)
     - [Realm/SwiftLint](https://github.com/realm/SwiftLint)
     - [FireBase](https://firebase.google.com/)
-    - [SnapKit.io](https://snapkit.io/)
+    - [SnapKit/SnapKit](https://snapkit.github.io/SnapKit/)
 - - -
 - Python Libs
     - [Pendulum](https://pendulum.eustace.io)
