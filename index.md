@@ -59,6 +59,7 @@
     - [neon.tech Postgres Db](https://neon.tech)
 - - -
 - To be continued...
+- [BitChute Android App (BitSlide)](https://gitlab.com/BitChute/BitSlide)
 - - -
 - Awesome libs
     - [Awesome-Swift](https://github.com/matteocrippa/awesome-swift)
