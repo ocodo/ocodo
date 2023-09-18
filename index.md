@@ -1,6 +1,7 @@
 - [ChatGPT](https://chat.openai.com/)
 - [Leonardo.ai](https://app.leonardo.ai/ai-generations)
 - [Mail](https://mail.google.com/mail/u/0/#inbox)
+- [FastMail (BitChute)](https://app.fastmail.com/mail/Inbox)
 - [WhatsApp](https://web.whatsapp.com/)
 - [Google Translate](https://translate.google.com)
 - [Transmission](http://192.168.1.100:9091)
