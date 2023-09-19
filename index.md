@@ -58,8 +58,8 @@
     - [../HackerNews-DIYgest/actions](https://github.com/codefodder/HackerNews-DIYgest/actions/workflows/hacker-news-diygest-hourly-scrape.yml)
     - [neon.tech Postgres Db](https://neon.tech)
 - - -
-- To be continued...
-- [BitChute Android App (BitSlide)](https://gitlab.com/BitChute/BitSlide)
+- BitChute
+- [BitChute GitLab](https://gitlab.com/BitChute)
 - - -
 - Awesome libs
     - [Awesome-Swift](https://github.com/matteocrippa/awesome-swift)
