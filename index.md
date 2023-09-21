@@ -60,6 +60,7 @@
 - - -
 - BitChute
 - [BitChute GitLab](https://gitlab.com/BitChute)
+- [OpenSearchServer](https://www.opensearchserver.com/)
 - - -
 - Awesome libs
     - [Awesome-Swift](https://github.com/matteocrippa/awesome-swift)
