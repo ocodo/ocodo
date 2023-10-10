@@ -48,7 +48,7 @@
     - [../autothemer](https://github.com/jasonm23/autothemer)
 - [GitHub/ocodo](https://github.com/ocodo)
     - [../ocodo](https://github.com/ocodo/ocodo)
-    - [../OcodoMono font](https://github.com/ocodo/OcodoMono)
+    - [../OcodoMono font](https://github.com/ocodo/Ocodo-Mono)
     - [../ClockFace-font](https://github.com/ocodo/clockFace-font)
 - [GitHub/emacsfodder](https://github.com/emacsfodder)
     - [../etd](https://github.com/emacsfodder/etd)
