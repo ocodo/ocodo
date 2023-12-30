@@ -5,7 +5,7 @@
 - [WhatsApp](https://web.whatsapp.com/)
 - [Google Translate](https://translate.google.com)
 - [Transmission](http://192.168.1.100:9091)
-- [JellyFin](http://192.168.1.100:8096/web/index.html#!/home.html)
+- [JellyFin](http://192.168.1.27:8096/web/index.html#!/home.html)
 - [YouTube](https://youtube.com)
 - [LoFi ATC](https://www.lofiatc.com/)
 - [Home Router](http://192.168.1.1/)
@@ -62,6 +62,7 @@
 - [BitChute webapp.orb.local](http://webapp.orb.local:8080/)
 - [BitChute GitLab](https://gitlab.com/BitChute)
 - [OpenSearchServer](https://www.opensearchserver.com/)
+- [Site](https://bitchute.com)
 - - -
 - Awesome libs
     - [Awesome-Swift](https://github.com/matteocrippa/awesome-swift)
