@@ -26,6 +26,7 @@
 - [Simpleicons](https://simpleicons.org/)
 - [shields.io](https://shields.io/badges/)
 - [Pixlr PhotoEditor](https://pixlr.com/e/)
+- [PhotoMosh](https://photomosh.com/)
 - [Prime Voice AI](https://beta.elevenlabs.io/speech-synthesis)
 - [Shows](https://showrss.info/timeline)
 - [SwiftUI](https://developer.apple.com/documentation/swiftui/)
