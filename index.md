@@ -4,6 +4,7 @@
 - [FastMail (BitChute)](https://app.fastmail.com/mail/Inbox)
 - [WhatsApp](https://web.whatsapp.com/)
 - [Google Translate](https://translate.google.com)
+- [Google Sheets](https://sheets.google.com)
 - [Transmission](http://192.168.1.100:9091)
 - [JellyFin](http://192.168.1.27:8096/web/index.html#!/home.html)
 - [YouTube](https://youtube.com)
