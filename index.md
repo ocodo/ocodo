@@ -17,6 +17,7 @@
 - [My Gists](https://gist.github.com/jasonm23/)
 - [Firefox Extensions](https://addons.mozilla.org/en-GB/developers/addons)
 - [News Minimalist](https://www.newsminimalist.com/)
+- [Public APIS](https://publicapis.dev/)
 - [Eraser App Diagramming](https://app.eraser.io)
 - [Doom Emacs](https://github.com/doomemacs/)
 - [HackerNews Insight, Top Stories by Score](https://hackernews-insight.vercel.app/story-list-by-score)
@@ -139,4 +140,5 @@
     - [Sneako/Finch](https://github.com/sneako/finch)
     - [Elixir-Waffle/Waffle](https://github.com/elixir-waffle/waffle)
     - [Elixir-Wallaby/Wallaby](https://github.com/elixir-wallaby/wallaby)
+
 
