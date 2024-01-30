@@ -4,6 +4,7 @@
 - [FastMail (BitChute)](https://app.fastmail.com/mail/Inbox)
 - [WhatsApp](https://web.whatsapp.com/)
 - [Google Translate](https://translate.google.com)
+- [Google Keep](https://keep.google.com)
 - [Google Sheets](https://sheets.google.com)
 - [Transmission(LAN)](http://192.168.1.27:9091)
 - [Transmission(VPN)](http://nebula:9091)
