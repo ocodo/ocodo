@@ -222,11 +222,11 @@
 
              function setStatusBar() {
                  dateToday = new Date().toLocaleString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"})
-                 // "Friday, Jul 2, 2021"
-                 document.getElementById('date-time-status').innerHTML = `${dateToday}`
+                 timeNow = new Date().toLocaleTimeString('en-US')
+                 document.getElementById('date-time-status').innerHTML = ` ${timeNow} ${dateToday}`
              }
 
-             setInterval(setStatusBar, 10000)
+             setInterval(setStatusBar, 1000)
              setStatusBar()
 
              var xDown = null
