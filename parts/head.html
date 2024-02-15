@@ -222,7 +222,7 @@
 
              function setStatusBar() {
                  dateToday = new Date().toLocaleString('en-us', { weekday:"long", year:"numeric", month:"short", day:"numeric"})
-                 timeNow = new Date().toLocaleTimeString('en-US')
+                 timeNow = new Date().toLocaleTimeString('en-US',{timeZone: 'Asia/Bangkok'})
                  document.getElementById('date-time-status').innerHTML = ` ${timeNow} ${dateToday}`
              }
 
