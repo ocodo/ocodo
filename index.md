@@ -14,6 +14,7 @@
 - [Asus Access Point](https://192.168.1.180:8443/)
 - - -
 - [Helios Music Server](http://helios:4533)
+- [Find Torrents](http://helios:5000/)
 - [LinkHut Bookmarks](https://ln.ht/)
 - [Hacker News](https://news.ycombinator.com/)
 - [My Gists](https://gist.github.com/jasonm23/)
