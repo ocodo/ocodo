@@ -10,7 +10,7 @@
 - [Transmission(VPN)](http://helios:9091)
 - [YouTube](https://youtube.com)
 - [LoFi ATC](https://www.lofiatc.com/)
-- [Home Router](http://110.0.0.1/)
+- [Home Router](http://10.0.0.1/)
 - [Asus Access Point](https://10.0.0.3:8443/)
 - - -
 - [Helios Music Server](http://helios:4533)
