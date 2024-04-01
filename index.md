@@ -8,6 +8,8 @@
 - [Google Sheets](https://sheets.google.com)
 - [Transmission(LAN)](http://10.0.0.2:9091)
 - [Transmission(VPN)](http://helios:9091)
+- [Lazada(Thailand)](https://lazada.co.th)
+- [Shopee (Thailand)](https://shopee.co.th)
 - [YouTube](https://youtube.com)
 - [LoFi ATC](https://www.lofiatc.com/)
 - [Home Router](http://10.0.0.1/)
