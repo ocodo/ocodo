@@ -31,7 +31,6 @@
 - [Cyberpunk Mods](https://www.nexusmods.com/cyberpunk2077)
 - - -
 - [Palworld Settings Editor](http://helios:2000/)
-- [Palworld Server Log](http://helios:5678/)
 - [Adobe Podcast Enhance](https://podcast.adobe.com/enhance)
 - [Font Awesome to PNG](https://fa2png.app/)
 - [Simpleicons](https://simpleicons.org/)
