@@ -17,6 +17,7 @@
 - - -
 - [Helios Music Server](http://helios:4533)
 - [Find Torrents](http://helios:5000/)
+- [Spotdl Music downloader](http://helios:8800)
 - [LinkHut Bookmarks](https://ln.ht/)
 - [Hacker News](https://news.ycombinator.com/)
 - [My Gists](https://gist.github.com/jasonm23/)
