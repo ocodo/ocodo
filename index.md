@@ -75,6 +75,7 @@
 - BitChute
 - [BitChute webapp.orb.local](http://webapp.orb.local:8080/)
 - [BitChute GitLab](https://gitlab.com/BitChute)
+- [BitChute v1 issues](https://gitlab.com/bitchutegroup/bitchute/bitchute/-/issues)
 - [OpenSearchServer](https://www.opensearchserver.com/)
 - [Site](https://bitchute.com)
 - - -
