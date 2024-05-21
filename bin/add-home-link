@@ -2,6 +2,8 @@
 
 homepage_folder=$HOME/workspace/ocodo
 
+git -C "$homepage_folder" pull --rebase --autostash
+
 echo "Add link to ocodo homepage"
 vared -p "Link: " -c link
 vared -p "Title: " -c title
