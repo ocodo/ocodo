@@ -31,6 +31,7 @@
 - [Emacs-mac-port Homebrew](https://github.com/railwaycat/homebrew-emacsmacport)
 - [Cyberpunk Mods](https://www.nexusmods.com/cyberpunk2077)
 - - -
+- [Gamedev.City (HN for gamedev)](https://gamedev.city/)
 - [Palworld Settings Editor](http://helios:2000/)
 - [Adobe Podcast Enhance](https://podcast.adobe.com/enhance)
 - [Font Awesome to PNG](https://fa2png.app/)
