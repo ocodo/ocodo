@@ -1,4 +1,5 @@
 - [ChatGPT](https://chat.openai.com/)
+- [Stable-Diffusion (VPN)](http://nebula:7860/)
 - [Leonardo.ai](https://app.leonardo.ai/ai-generations)
 - [Mail](https://mail.google.com/mail/u/0/#inbox)
 - [FastMail (BitChute)](https://app.fastmail.com/mail/Inbox)
