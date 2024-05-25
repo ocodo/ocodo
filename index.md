@@ -17,7 +17,7 @@
 - [Home Router (LAN)](http://10.0.0.1/)
 - [Asus Access Point (LAN)](https://10.0.0.3:8443/)
 - - -
-- [Spotdl Music downloader](http://helios:8800)
+- [Spotdl Music downloader (VPN)](http://helios:8800)
 - [Helios Music Server (VPN)](http://helios:4533)
 - [Find Torrents (VPN)](http://helios:5000/)
 - [LinkHut Bookmarks](https://ln.ht/)
