@@ -13,11 +13,12 @@
 - VPN/LAN
 - [Ollama (VPN/Nebula)](http://nebula:8080)
 - [Stable-Diffusion (VPN/Nebula)](http://nebula:7860/)
-- [Transmission(VPN/Helios)](http://helios:9091)
 - [Spotdl (VPN/Helios)](http://helios:8800)
 - [Navidrome (VPN/Helios)](http://helios:4533)
 - [Find Media (VPN/Helios)](http://helios:5000/)
 - [Palworld Settings (VPN/Helios)](http://helios:2000/)
+- [Transmission(VPN/Helios)](http://helios:9091)
+- [Tailscale Dashboard](https://login.tailscale.com/admin/machines)
 - [Transmission(LAN)](http://10.0.0.2:9091)
 - [Home Router (LAN)](http://10.0.0.1/)
 - [Asus Access Point (LAN)](https://10.0.0.3:8443/)
