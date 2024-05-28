@@ -6,7 +6,7 @@
 - [Google Translate](https://translate.google.com)
 - [Google Keep](https://keep.google.com)
 - [Google Sheets](https://sheets.google.com)
-- [Lazada(Thailand)](https://lazada.co.th)
+- [Lazada (Thailand)](https://lazada.co.th)
 - [Shopee (Thailand)](https://shopee.co.th)
 - [YouTube](https://youtube.com)
 - - -
@@ -17,9 +17,9 @@
 - [Navidrome (VPN/Helios)](http://helios:4533)
 - [Find Media (VPN/Helios)](http://helios:5000/)
 - [Palworld Settings (VPN/Helios)](http://helios:2000/)
-- [Transmission(VPN/Helios)](http://helios:9091)
+- [Transmission (VPN/Helios)](http://helios:9091)
 - [Tailscale Dashboard](https://login.tailscale.com/admin/machines)
-- [Transmission(LAN)](http://10.0.0.2:9091)
+- [Transmission (LAN)](http://10.0.0.2:9091)
 - [Home Router (LAN)](http://10.0.0.1/)
 - [Asus Access Point (LAN)](https://10.0.0.3:8443/)
 - - -
@@ -79,11 +79,14 @@
     - [neon.tech Postgres Db](https://neon.tech)
 - - -
 - BitChute
-- [BitChute webapp.orb.local](http://webapp.orb.local:8080/)
-- [BitChute GitLab](https://gitlab.com/BitChute)
-- [BitChute v1 issues](https://gitlab.com/bitchutegroup/bitchute/bitchute/-/issues)
+- [BitChute issues](https://gitlab.com/bitchutegroup/bitchute/bitchute/-/issues)
+- [BitChute v2 UI issues](https://gitlab.com/bitchutegroup/bitchute-v2/bitchute-v2-ui/-/issues)
+- [Chutenetwork issues](https://gitlab.com/bitchutegroup/bitchute/bitchute/-/issues)
+- [PayChute Core issues](https://gitlab.com/bitchutegroup/paychute/paychute-core/-/issues)
+- [PayChute Vue issues](https://gitlab.com/bitchutegroup/paychute/paychute-vue/-/issues)
 - [OpenSearchServer](https://www.opensearchserver.com/)
-- [Site](https://bitchute.com)
+- [Bitchute cd01 (209.97.135.129)](https://cd01.bitchute.com)
+- [Bitchute Live (???)](https://bitchute.com)
 - - -
 - Awesome libs
     - [Awesome-Swift](https://github.com/matteocrippa/awesome-swift)
