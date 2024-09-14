@@ -14,6 +14,7 @@
 - [Ollama (VPN/Nebula)](http://nebula:8080)
 - [Stable-Diffusion (VPN/Nebula)](http://nebula:7860/)
 - [Spotdl (VPN/Helios)](http://helios:8800)
+- [Invidious](http://helios:3000)
 - [Navidrome (VPN/Helios)](http://helios:4533)
 - [Find Media (VPN/Helios)](http://helios:5000/)
 - [Palworld Settings (VPN/Helios)](http://helios:2000/)
