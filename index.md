@@ -4,6 +4,7 @@
 - [Leonardo.ai](https://app.leonardo.ai/ai-generations)
 - [WhatsApp](https://web.whatsapp.com/)
 - [Google Translate](https://translate.google.com)
+- [Google Home](https://home.google.com)
 - [Google Keep](https://keep.google.com)
 - [Google Sheets](https://sheets.google.com)
 - [Lazada (Thailand)](https://lazada.co.th)
