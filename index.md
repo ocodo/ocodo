@@ -12,6 +12,7 @@
 - [YouTube](https://youtube.com)
 - - -
 - VPN/LAN
+- [Gitcodo](http://helios:2323)
 - [Ollama WebUI (localhost)](http://localhost:3000)
 - [Ollama WebUI (VPN/Nebula)](http://nebula:8080)
 - [Find Media (VPN/Helios)](http://helios:5000/)
