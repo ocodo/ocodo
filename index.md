@@ -22,6 +22,7 @@
 - [Palworld Settings (VPN/Helios)](http://helios:2000/)
 - [Transmission (VPN/Helios)](http://helios:9091)
 - [Tailscale Dashboard](https://login.tailscale.com/admin/machines)
+- [pi.hole (helios/VPN)](http://pi.hole/admin/)
 - [Transmission (LAN)](http://10.0.0.2:9091)
 - [Home Router (LAN)](http://10.0.0.1/)
 - [Asus Access Point (LAN)](https://10.0.0.3:8443/)
