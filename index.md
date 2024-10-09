@@ -12,7 +12,7 @@
 - - -
 - VPN/LAN
 - [Gitcodo](http://helios:2323)
-- [Ollama WebUI (localhost)](http://localhost:3000)
+- [Ollama WebUI (localhost)](http://localhost:8080)
 - [Find Media (VPN/Helios)](http://helios:5000/)
   - [Torrent Downloads](http://helios:5000/torrents/active)
   - [Mp3 Downloads](http://helios:5000/mp3/downloads)
