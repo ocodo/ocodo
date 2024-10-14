@@ -25,6 +25,8 @@
     - [Recent](http://helios:5000/hackernews/recent)
     - [Favorites](http://helios:5000/hackernews/favorites)
 - [TraktorBox (VPN/Helios)](http://helios:8888)
+- [TorrentBox (VPN/Helios)](http://helios:8880)
+- [Stable-Diffusion (VPN/Nebula)](http://nebula:7860/)
 - [Stable-Diffusion (VPN/Nebula)](http://nebula:7860/)
 - [Spotdl (VPN/Helios)](http://helios:8800)
 - [Yt-Dlp (VPN/Helios)](http://helios:3033)
