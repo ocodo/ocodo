@@ -14,6 +14,8 @@
 - [Gitcodo](http://gitcodo.hub)
 - [Gist.Gitcodo](http://gist.gitcodo.hub)
 - [Ollama WebUI (localhost)](http://localhost:8080)
+  - [Ollama WebUI (localhost)](http://pulsar:8080)
+  - [Ollama WebUI (localhost)](http://polaris:8080)
 - [Find Media (VPN/Helios)](http://mediabox.hub/)
   - [Torrent Downloads](http://mediabox.hub/torrents/active)
   - [Mp3 Downloads](http://mediabox.hub/mp3/downloads)
@@ -105,7 +107,7 @@
     - [Awesome-Python](https://github.com/vinta/awesome-python)
     - [Awesome-Kotlin](https://github.com/mcxiaoke/awesome-kotlin)
     - [Awesome-CommonLisp](https://github.com/CodyReichert/awesome-cl)
-- - - 
+- - -
 - Swift libs
     - [Danielgindi/Charts](https://github.com/danielgindi/Charts)
     - [ReactiveX/RxSwift](https://github.com/ReactiveX/RxSwift)

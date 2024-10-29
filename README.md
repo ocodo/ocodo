@@ -1,3 +1,3 @@
 # ocodo
 
-Just a homepage
+Links homepage

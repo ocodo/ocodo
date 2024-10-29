@@ -1,6 +1,5 @@
 #!/usr/bin/env zsh
 
-cmark index.md | sed -E -e 's/(href=".*")/\1 target="_blank"/' -e 's#<hr />##' > links.html
-
+cmark parts/index.md | sed -E -e 's/(href=".*")/\1 target="_blank"/' -e 's#<hr />##' > links.html
 cat parts/head.html links.html parts/foot.html > index.html
 rm links.html
