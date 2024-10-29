@@ -1,6 +1,7 @@
 - [Mail](https://mail.google.com/mail/u/0/#inbox)
 - [ChatGPT](https://chat.openai.com/)
 - [Leonardo.ai](https://app.leonardo.ai/ai-generations)
+- [Upscale media](https://upscale.media)
 - [WhatsApp](https://web.whatsapp.com/)
 - [Google Translate](https://translate.google.com)
 - [Google Home](https://home.google.com)
