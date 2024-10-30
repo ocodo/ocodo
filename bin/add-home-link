@@ -18,7 +18,7 @@ add=$(echo "y\nn" | fzf \
 if [[ "$add" == "y" ]]; then
     cd $homepage_folder
 
-    insert_at=$(cat -n parts/index.md \
+    insert_at=$(cat -n pages/index.md \
                    | fzf --no-sort --reverse --height 20 \
                          --header "Select a line to insert the link (below)" \
                    | cut -f 1 \
@@ -33,7 +33,7 @@ if [[ "$add" == "y" ]]; then
         markdown="    $markdown"
     fi
 
-    ed -s parts/index.md <<< "$insert_at"$'a\n'"$markdown"$'\n.\nwq'
+    ed -s pages/index.md <<< "$insert_at"$'a\n'"$markdown"$'\n.\nwq'
 
     bin/build
     git --no-pager diff
@@ -46,7 +46,7 @@ if [[ "$add" == "y" ]]; then
     [ "$all_ok" != "y" ] && exit
 
     git add .
-    git commit -m "added ${title}"
+    git commit -s -m "added ${title}"
     git pull --rebase
     git push
 fi

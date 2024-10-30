@@ -43,9 +43,9 @@
 - [Webmin (VPN/Helios)](http://webmin.hub)
 - [Transmission (LAN)](http://10.0.0.2:9091)
 - [Home Router (LAN)](http://10.0.0.1/)
-- [Home Router (via hub)](http://3bb.hub)
+- [Home Router (via hub)](http://3bb.helios)
 - [Asus Access Point (LAN)](https://10.0.0.3:8443/)
-- [Asus Access Point (via hub)](https://asus.hub)
+- [Asus Access Point (via hub)](https://asus.helios)
 - - -
 - [LinkHut Bookmarks](https://ln.ht/)
 - [Hacker News](https://news.ycombinator.com/)
