@@ -9,14 +9,8 @@
 - [Google Sheets](https://sheets.google.com)
 - [Lazada (Thailand)](Thailand)
 - [Shopee (Thailand)](Thailand)
-
-
 - - -
-
-# VPN/LAN
-
-
-
+- VPN/LAN
 - [Gitcodo](http://gitcodo.hub)
 - [Gist.Gitcodo](https://gist.gitcodo.hub)
 - [OllamaUI localhost](http://localhost:8080)
