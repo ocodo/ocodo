@@ -9,7 +9,6 @@
 - [Google Sheets](https://sheets.google.com)
 - [Lazada (Thailand)](https://lazada.co.th)
 - [Shopee (Thailand)](https://shopee.co.th)
-
 - - -
 - VPN/LAN
 - [Gitcodo](http://gitcodo.hub)
@@ -40,7 +39,6 @@
 - [Webmin](https://helios:10000)
 - [Home Router](http://3bb.helios)
 - [Asus Access Point](https://asus.helios)
-
 - - -
 - [LinkHut](https://ln.ht/)
 - [Hacker News](https://news.ycombinator.com/)
@@ -54,7 +52,6 @@
 - [Emacs-mac-port Code](https://bitbucket.org/mituharu/emacs-mac/overview)
 - [Emacs-mac-port Homebrew](https://github.com/railwaycat/homebrew-emacsmacport)
 - [Cyberpunk Mods](https://www.nexusmods.com/cyberpunk2077)
-
 - - -
 - [Gamedev.City (HN for gamedev)](https://gamedev.city/)
 - [Adobe Podcast Enhance](https://podcast.adobe.com/enhance)
@@ -71,7 +68,6 @@
 - [codepen.io](https://codepen.io)
 - [music for programming](https://musicforprogramming.net/latest/)
 - [perplexity.ai](https://www.perplexity.ai/)
-
 - - -
 - [GitHub/cutbox](https://github.com/cutbox)
 - [../CutBox](https://github.com/cutbox/CutBox)
@@ -82,7 +78,6 @@
 - [../Coverage Reports](https://cutbox.github.io/CutBox/)
 - [../CutBox Codacy Dashboard](https://app.codacy.com/gh/cutbox/CutBox/dashboard)
 - [../CutBox/wiki](https://github.com/cutbox/CutBox/wiki)
-
 - - -
 - [GitHub/jasonm23](https://github.com/jasonm23)
 - [../lifewiki](https://github.com/jasonm23/lifewiki)
@@ -99,14 +94,12 @@
 - [../Slashdot-DIYgest/actions](https://github.com/codefodder/Slashdot-DIYgest/actions/)
 - [../HackerNews-DIYgest/actions](https://github.com/codefodder/HackerNews-DIYgest/actions/)
 - [.../neon.tech Postgres Db](https://neon.tech)
-
 - - -
 - [Awesome-Swift](https://github.com/matteocrippa/awesome-swift)
 - [Awesome-Elixir](https://github.com/h4cc/awesome-elixir)
 - [Awesome-Python](https://github.com/vinta/awesome-python)
 - [Awesome-Kotlin](https://github.com/mcxiaoke/awesome-kotlin)
 - [Awesome-CommonLisp](https://github.com/CodyReichert/awesome-cl)
-
 - - -
 - [Danielgindi/Charts](https://github.com/danielgindi/Charts)
 - [ReactiveX/RxSwift](https://github.com/ReactiveX/RxSwift)
@@ -117,7 +110,6 @@
 - [Realm/SwiftLint](https://github.com/realm/SwiftLint)
 - [FireBase](https://firebase.google.com/)
 - [SnapKit/SnapKit](https://snapkit.github.io/SnapKit/)
-
 - - -
 - [Pendulum](https://pendulum.eustace.io)
 - [PyPD](https://pypi.org/project/pypdf/)
@@ -135,7 +127,6 @@
 - [Sqlmodel](https://sqlmodel.tiangolo.com)
 - [Httpx](https://github.com/encode/httpx)
 - [Python-dotenv](https://saurabh-kumar.com/python-dotenv/))
-
 - - -
 - [Ecto/Postgrex](https://github.com/elixir-ecto/postgrex)
 - [Jason(JSON)](https://github.com/michalmuskala/jason)
