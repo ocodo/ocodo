@@ -7,16 +7,20 @@
 - [Google Home](https://home.google.com)
 - [Google Keep](https://keep.google.com)
 - [Google Sheets](https://sheets.google.com)
-- [Lazada (Thailand)](Thailand)
-- [Shopee (Thailand)](Thailand)
+- [Lazada (Thailand)](https://lazada.co.th)
+- [Shopee (Thailand)](https://shopee.co.th)
+
+
 - - -
+
 - VPN/LAN
+
 - [Gitcodo](http://gitcodo.hub)
 - [Gist.Gitcodo](https://gist.gitcodo.hub)
 - [OllamaUI localhost](http://localhost:8080)
 - [..pulsar](http://pulsar:8080)
 - [..polaris](http://polaris:8080)
-- [MediaBox (helios)](helios)
+- [MediaBox](https://mediabox.hub)
 - [..Torrent Downloads](https://mediabox.hub/torrents/active)
 - [...TorrentBox](https://torrentbox.hub)
 - [..Mp3 Downloads](https://mediabox.hub/mp3/downloads)
@@ -35,10 +39,10 @@
 - [Navidrome](https://music.hub)
 - [Transmission](https://transmission.hub)
 - [Tailscale Dashboard](https://login.tailscale.com/admin/machines)
-- [pi.hole](VPN/Helios)
-- [Webmin](VPN/Helios)
-- [Home Router](via hub)
-- [Asus Access Point](via hub)
+- [pi.hole](https://pi.hole)
+- [Webmin](https://helios:10000)
+- [Home Router](http://3bb.helios)
+- [Asus Access Point](https://asus.helios)
 
 
 - - -
