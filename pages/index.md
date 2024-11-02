@@ -30,8 +30,6 @@
 - [..Recent](https://mediabox.hub/hackernews/recent)
 - [..Favorites](https://mediabox.hub/hackernews/favorites)
 - [Spotdl](https://spotdl.hub)
-- [Yt-Dlp](https://ytdlp.hub)
-- [Invidious](https://invidious.hub)
 - [Navidrome](https://music.hub)
 - [Transmission](https://transmission.hub)
 - [Tailscale Dashboard](https://login.tailscale.com/admin/machines)
