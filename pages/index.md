@@ -11,7 +11,7 @@
 - [Shopee (Thailand)](https://shopee.co.th)
 - - -
 - VPN/LAN
-- [Gitcodo](http://gitcodo.hub)
+- [Gitcodo](https://gitcodo.hub)
 - [Gist.Gitcodo](https://gist.gitcodo.hub)
 - [OllamaUI localhost](http://localhost:8080)
 - [..pulsar](http://pulsar:8080)
