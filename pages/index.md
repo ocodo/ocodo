@@ -36,7 +36,7 @@
 - [pi.hole](https://pi.hole)
 - [Webmin](https://helios:10000)
 - [Home Router](http://3bb.helios)
-- [Asus Access Point](https://asus.helios)
+- [Asus Access Point](https://10.0.0.3:8443/Main_Login.asp)
 - - -
 - [LinkHut](https://ln.ht/)
 - [Hacker News](https://news.ycombinator.com/)
