@@ -10,8 +10,8 @@
 - [Google Sheets](https://sheets.google.com)
 - [Lazada (Thailand)](https://lazada.co.th)
 - [Shopee (Thailand)](https://shopee.co.th)
+- [YouTube](https://youtube.com)
 - - -
-- VPN/LAN
 - [Gitcodo](https://gitcodo.hub)
 - [Gist.Gitcodo](https://gist.gitcodo.hub)
 - [OllamaUI localhost](http://localhost:8080)
