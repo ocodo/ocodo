@@ -124,7 +124,7 @@
 - [FastAPI](https://fastapi.tiangolo.com)
 - [Sqlmodel](https://sqlmodel.tiangolo.com)
 - [Httpx](https://github.com/encode/httpx)
-- [Python-dotenv](https://saurabh-kumar.com/python-dotenv/))
+- [Python-dotenv](https://saurabh-kumar.com/python-dotenv/)
 - - -
 - [Ecto/Postgrex](https://github.com/elixir-ecto/postgrex)
 - [Jason(JSON)](https://github.com/michalmuskala/jason)
