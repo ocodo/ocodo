@@ -11,6 +11,7 @@
 - [Lazada (Thailand)](https://lazada.co.th)
 - [Shopee (Thailand)](https://shopee.co.th)
 - [YouTube](https://youtube.com)
+- [RubyOnRemote Jobs](https://rubyonremote.com)
 - - -
 - [Gitcodo](https://gitcodo.hub)
 - [Gist.Gitcodo](https://gist.gitcodo.hub)
