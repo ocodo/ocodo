@@ -18,7 +18,7 @@
 - [OllamaUI localhost](http://localhost:8080)
 - [..pulsar](http://pulsar:8080)
 - [..polaris](http://polaris:8080)
-- [Wake Machines](https://wake.hub)
+- [Wake.hub](https://wake.hub)
 - [MediaBox](https://mediabox.hub)
 - [..Torrent Downloads](https://mediabox.hub/torrents/active)
 - [...TorrentBox](https://torrentbox.hub)
