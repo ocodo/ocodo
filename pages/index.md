@@ -51,6 +51,7 @@
 - - -
 - [Gamedev.City (HN for gamedev)](https://gamedev.city/)
 - [Adobe Podcast Enhance](https://podcast.adobe.com/enhance)
+- [Online recorder](https://online-voice-recorder.com/)
 - [LoFi ATC](https://www.lofiatc.com/)
 - [Font Awesome to PNG](https://fa2png.app/)
 - [Simpleicons](https://simpleicons.org/)
