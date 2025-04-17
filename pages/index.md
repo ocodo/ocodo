@@ -24,6 +24,7 @@
 - [MediaBox](https://mediabox.hub)
 - [TorrentBox](https://torrentbox.hub)
 - [TraktorBox](https://traktorbox.hub)
+- [VideoBox](https://videobox.hub)
 - [Music Library](https://mediabox.hub/music/library)
 - [Emails](https://mediabox.hub/email/search)
 - [HackerNews](https://mediabox.hub/hackernews/search)
