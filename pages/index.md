@@ -34,7 +34,7 @@
 - [Transmission](https://transmission.hub)
 - [Tailscale Dashboard](https://login.tailscale.com/admin/machines)
 - [pi.hole](https://pi.hole)
-- [Home Router](https://3bb.hub)
+- [Home Router](http://10.0.0.1)
 - [Asus Access Point](https://10.0.0.3:8443/Main_Login.asp)
 - [Webmin](https://webmin.hub:10000/)
 - - -
