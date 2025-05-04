@@ -2,7 +2,6 @@
 - [Deepseek Chat](https://chat.deepseek.com/)
 - [ChatGPT](https://chat.openai.com/)
 - [Leonardo.ai](https://app.leonardo.ai/ai-generations)
-- [React SVG Icons](https://reactsvgicons.com/)
 - [Icônes](https://icones.js.org/)
 - [VidMix.app](https://vidmix.app/)
 - [Upscale media](https://upscale.media)
