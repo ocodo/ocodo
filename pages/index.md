@@ -3,6 +3,7 @@
 - [ChatGPT](https://chat.openai.com/)
 - [Leonardo.ai](https://app.leonardo.ai/ai-generations)
 - [Icônes](https://icones.js.org/)
+- [SVG Viewer](https://www.svgviewer.dev/)
 - [VidMix.app](https://vidmix.app/)
 - [Upscale media](https://upscale.media)
 - [WhatsApp](https://web.whatsapp.com/)
